@@ -41,7 +41,7 @@ form button {
     margin-left: 0.5em;
 }
 
-#searchContainer {
+#searchContainer, #searchResults {
     width: 900px;
     margin: 2em auto;
     border: 1px solid black;

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>New York Times Search</h1>
+        <h1><i class='fas fa-search'></i>New York Times Search</h1>
     </header>
     <section id='searchContainer'>
         <h2>Search Paramenters</h2>
@@ -19,7 +19,7 @@
             <label for= "search">Search Term:</label>
             <input type="text" id = 'searchTerm'>
             <label for = "records">Number of Records:</label>
-            <select name="" id="">
+            <select name="" id="searchNumber">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -31,13 +31,19 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </select>
-            <label for="startYear">Start Year (optional)</label>
+            <label for="startYear" id='searchYear'>Start Year (optional)</label>
             <input type="text">
-            <label for="yearEnd">End Year (optional)</label>
+            <label for="yearEnd" id='searchEnd'>End Year (optional)</label>
             <input type="text">
             <button id='search'>Search</button>
             <button id='clear'>Clear Results</button>
         </form>
+    </section>
+    <section id='searchResults'>
+        <h2>Articles</h2>
+        <div id='articles'>
+
+        </div>
     </section>
 
 </body>
