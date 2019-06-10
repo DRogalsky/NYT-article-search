@@ -42,6 +42,10 @@ form button {
     display: inline-block;
     margin-left: 0.5em;
     padding: 0 1em;
+    background: #0d3d56;
+    color: white;
+    border: none;
+    padding-right: 1;
 }
 
 #searchContainer, #searchResults {
