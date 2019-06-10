@@ -1,0 +1,48 @@
+header {
+    background: #0D3D56;
+    width: 100%;
+    padding: 2em;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+form *{
+    display: block;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+h2 {
+    padding: 0.5em;
+    background: black;
+    color: white;
+}
+
+form {
+  margin: 0 auto;
+}
+
+form input {
+    width: 90%;
+    height: 1.5em;
+}
+
+form select {
+    width: 92%;
+    height: 3em;
+}
+
+form button {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+#searchContainer, #searchResults {
+    width: 900px;
+    margin: 2em auto;
+    border: 1px solid black;
+}
