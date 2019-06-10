@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,17 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
         <h1><i class='fas fa-search'></i>New York Times Search</h1>
     </header>
     <section id='searchContainer'>
         <h2>Search Paramenters</h2>
-        <form action="">
-            <label for= "search">Search Term:</label>
-            <input type="text" id = 'searchTerm'>
-            <label for = "records">Number of Records:</label>
+        <form action="" id ='searchForm'>
+            <label for="search">Search Term:</label>
+            <input type="text" id='searchTerm'>
+            <label for="records">Number of Records:</label>
             <select name="" id="searchNumber">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -45,6 +47,11 @@
 
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/scripts.js"></script>
 
 </body>
+
 </html>
